@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section#area_cartelas {
+    width: 70%;
+    height: 75vh;
+    background-color: green;
+}
+
+div#header_cartelas, div#header_lancamentos {
+    width: 100%;
+    height: 20%;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#body_cartelas {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.cartela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+div.cartela h4 {
+    margin-bottom: 5px;
+}
+
+div#header_cartelas button, div#header_lancamentos button {
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+  
+section#area_lancamentos {
+    width: 30%;
+    height: 75vh;
+    background-color: yellow;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: salmon;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
