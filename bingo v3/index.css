@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+}
+
+.left-section {
+    flex: 2; 
+    padding: 20px;
+}
+
+.div_botao_gerar_jogador{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.right-section {
+    flex: 1; 
+    background-image: url(imagens/gambler.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-color: goldenrod;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+div.jogadoresContainer{
+    display: flex;
+    width: 100%;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: salmon;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.center-cell {
+    background-color: lightgreen;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+.play-button {
+    margin-bottom: 0;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bingo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>BINGO</h1>
+    </header>
+
+    <main>
+        <div class="left-section">
+            <div class="div_botao_gerar_jogador">
+                <input type="text" id="jogadorNomeInput" placeholder="Digite o nome do jogador">
+                <button onclick="generatejogador()">Gerar Jogador</button>
+                <button onclick="restartGame()">Reniciar o jogo</button>
+            </div>
+            
+            <br><br>
+            <div id="jogadoresContainer"></div>
+        </div>
+        <div class="right-section">
+            <input type="text" id="numeroDisplay" readonly>
+        </div>
+        <button class="play-button" onclick="playGame()">Jogar</button>
+    </main>
+  
+    <footer>
+        <h4>developed by @leo-taxa</h4>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
